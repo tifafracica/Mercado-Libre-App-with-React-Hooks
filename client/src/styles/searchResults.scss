@@ -1,0 +1,37 @@
+.search-results-box{
+  background-color: white;
+  margin-bottom: 2rem;
+  .product-item-box{
+    border-bottom: 1px solid #8C8D8D;
+    .product-link{
+      text-decoration: none;
+      color: black;
+      .image-box{
+        overflow: hidden;
+        width: 13rem;
+        height: 12rem;
+        img{
+          width: 100%;
+        }
+      }
+      .price-properties{
+        font-size: 30px;
+      }
+      .free-shipping-box{
+        margin-left: 0.5rem;
+        height: 1.8em;
+        width: 1.8em;
+      }
+      .title-properties{
+        font-size: 20px;
+      }
+      .location-properties{
+        color: #8C8D8D;
+      }
+    }
+  }.product-item-box:last-child {
+    border-bottom: none;
+   }
+}
+
+

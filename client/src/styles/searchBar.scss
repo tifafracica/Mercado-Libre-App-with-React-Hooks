@@ -1,0 +1,32 @@
+.yellow-meli-bg{
+  background-color: #fff159;
+  .search-bar-width{
+    width: 75%;
+    @media (max-width:700px) {
+      width: 100%;
+    }
+    .meli-logo-box{
+      width: auto;
+      height: 2.5rem;
+      margin-right: 0.5rem;
+      .logo-height{
+        height: 100%;
+      }
+    }
+    .input-and-button-box{
+      position: relative;
+      .seach-input-styles{
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        border: solid 1px #dadada;
+      }
+      .submit-button-properties{
+        position: absolute;
+        background-color: white;
+        border: none;
+        right: 0.5em;
+        top: 0.5em;
+      }
+    }
+  }
+}

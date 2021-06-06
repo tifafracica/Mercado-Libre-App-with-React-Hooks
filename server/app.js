@@ -7,7 +7,7 @@ const apiRouter = require('./routes/apiRoutes');
 
 const app = express();
 
-const whitelist = ['http://localhost:3000', 'http://localhost:8080']
+const whitelist = ['http://localhost:3000', 'http://localhost:8080', 'https://mercado-libre-challenge-app.herokuapp.com/']
 const corsOptions = {
   origin: function (origin, callback) {
     console.log("** Origin of request " + origin)

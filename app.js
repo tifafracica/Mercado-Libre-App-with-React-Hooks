@@ -1,8 +1,8 @@
-const express = require("express");
+const express = require('express');
 // body-parser helps to parse the request and create the req.body object
-const bodyParser = require("body-parser");
+const bodyParser = require('body-parser');
 // cors provides Express middleware to enable CORS with various options.
-const cors = require("cors");
+const cors = require('cors');
 const apiRouter = require('./routes/apiRoutes');
 
 const app = express();
